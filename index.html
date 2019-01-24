@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+        <section class="center">
+        <h1>Exemple 1 : Caculatrice simple.</h1>
+        <div class="line center">
+            <label for="numberA">Saisir A :</label>
+            <input type="text" id="numberA" pattern="[0-9]+">
+        </div>
+        <div class="line">
+            <label for="numberB">Saisir B :</label>
+            <input type="text" id="numberB" pattern="[0-9]+">
+        </div>
+        <div class="line">
+            <button onclick="add();" id="addBtn">+</button>
+            <button onclick="sub();" id="subBtn">-</button>
+            <button onclick="mult();" id="multBtn">*</button>
+            <button onclick="div();" id="divBtn">/</button>
+        </div>
+        <div class="line">
+            <label for="result">Result :</label>
+            <input type="text" id="result" disabled>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

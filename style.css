@@ -1,0 +1,28 @@
+.line  {
+    padding : 5px;
+    width: 376px;
+    margin: 0 auto;
+}
+button {
+    width: 55px;
+    border-radius: 20px;
+}
+#addBtn {
+    background-color: blue;
+    color: white;
+}
+#subBtn {
+    background-color: red;
+    color: white;
+}
+#multBtn {
+    background-color: yellowgreen;
+}
+#divBtn {
+    background-color: goldenrod;
+}
+
+.center {
+    text-align: center;
+
+}
